@@ -1,0 +1,15 @@
+
+[ v3_ca ]
+
+subjectAltName      = @alternate_names
+keyUsage = digitalSignature, keyEncipherment
+
+[req]
+distinguished_name = req_distinguished_name
+
+[req_distinguished_name]
+
+[ alternate_names ]
+
+DNS.1        = example.com
+DNS.2        = 127.0.0.1
